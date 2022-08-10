@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin name: WPSync Webspark API.
+Plugin name: WP Sync Webspark.
 Description: WP Synchronization woocommerce Products with Webspark API.
 Author: Vadym Kravchenko
 Text Domain: webspark
