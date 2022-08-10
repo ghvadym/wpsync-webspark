@@ -8,7 +8,7 @@ class WW_Event
     static function cron_init()
     {
         add_action('wp', [self::class, 'admin_webspark_cron']);
-        //add_action(self::WW_CRON_JOB_NAME, [self::class, 'cron_call']);
+        add_action(self::WW_CRON_JOB_NAME, [self::class, 'cron_call']);
     }
 
     static function admin_webspark_cron()
